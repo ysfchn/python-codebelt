@@ -1,6 +1,5 @@
 # Progress Bar
-Prints a progress bar in console for your tasks.
-_snippet made by [@ysfchn](https://github.com/ysfchn)_
+Prints a progress bar in console for your tasks.<br>_by [@ysfchn](https://github.com/ysfchn)_
 
 ## Input
 ### progress `int`
@@ -17,11 +16,11 @@ Character that will be used for empty side of progress bar. Default is "░"
 ## Output
 Generates a progress bar as `str`.
 
-## Example
+## Usage
 ```py
-progress = progress_bar(10, 100)
+progress = progress_bar(50, 100)
 print(progress)
 
 # Output:
-# ████████████████████░░░░░░░░░░░░░░░░░░░░ %50 - 10 / 100
+# ████████████████████░░░░░░░░░░░░░░░░░░░░ %50 - 50 / 100
 ```
